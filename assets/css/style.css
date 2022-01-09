@@ -1,270 +1,301 @@
 :root {
-    --primary-color: #9bd6dd;
-    --secondary-color: #2a2d5f;
-    --tertiary-color: #2d3738;
+  --primary-color: #9bd6dd;
+  --secondary-color: #2a2d5f;
+  --tertiary-color: #2d3738;
 }
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    color: var(--tertiary-color);
-    font-family: Helvetica, Arial, sans-serif;
+  color: var(--tertiary-color);
+  font-family: Helvetica, Arial, sans-serif;
 }
 
 /* apply styles to <header>*/
 header {
-    padding: 20px 35px;
-    background-color: var(--tertiary-color);
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    background-position: 80%;
-    z-index: 9999;
+  padding: 20px 35px;
+  background-color: var(--tertiary-color);
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-position: 80%;
+  z-index: 9999;
 }
 
 header h1 {
-    font-weight: bold;
-    font-size: 36px;
-    color: var(--primary-color);
-    margin: 0;
-    text-shadow: 0 0 10px rgba(0,0,0,0.5);
+  font-weight: bold;
+  font-size: 36px;
+  color: var(--primary-color);
+  margin: 0;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 header a {
-    text-decoration: none;
-    color: var(--primary-color);
+  text-decoration: none;
+  color: var(--primary-color);
 }
 
 header nav {
-    margin: 7px 0;
+  margin: 7px 0;
 }
 
 header nav ul {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
 }
 
 header nav ul li a {
-    padding: 10px 15px;
-    font-weight: lighter;
-    text-decoration: underline;
-    font-size: 1.55vw;
-    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  padding: 10px 15px;
+  font-weight: lighter;
+  text-decoration: underline;
+  font-size: 1.55vw;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 header nav ul li a:hover {
-    background: var(--primary-color);
-    color: var(--secondary-color);
-    border-radius: 15px;
-    text-shadow: none;
+  background: var(--primary-color);
+  color: var(--secondary-color);
+  border-radius: 15px;
+  text-shadow: none;
 }
 
 footer {
-    background: var(--primary-color);
-    width: 100%;
-    padding: 40px 35px;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+  background: var(--primary-color);
+  width: 100%;
+  padding: 40px 35px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 footer h2 {
-    color: var(--secondary-color);
-    font-size: 30px;
-    margin: 0;
+  color: var(--secondary-color);
+  font-size: 30px;
+  margin: 0;
 }
 
 footer div {
-    line-height: 1.5;
-    text-align: right;
+  line-height: 2.5;
+  text-align: right;
 }
 
 footer a {
-    color: var(--secondary-color);
+  color: var(--secondary-color);
 }
 
 section {
-    padding: 60px;
+  padding: 30px;
 }
 
 /* subtitle start*/
 .hero {
-    background-image: url("../images/subtitle-background.jpg");
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    justify-content: right;
-    flex-wrap: wrap;
-    align-items: flex-start;
-    background-attachment: fixed;
-    background-position: 80%;
+  background-image: url("../images/subtitle-background.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: right;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  background-attachment: fixed;
+  background-position: 80%;
 }
 
 .subtitle {
-    width: 35%;
-    text-align: right;
-    margin: 3.5%;
-    color: #fff;
-    font-size: 18px;
-    line-height: 1.2;
+  width: 35%;
+  text-align: right;
+  margin: 3.5%;
+  color: #fff;
+  font-size: 18px;
+  line-height: 1.2;
 }
 
-.subtitle h2{
-    font-style: italic;
-    font-size: 30px;
-    color: var(--primary-color);
-    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+.subtitle h2 {
+  font-style: italic;
+  font-size: 30px;
+  color: var(--primary-color);
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+#headshot {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+  border-radius: 25px;
 }
 
 .intro {
-    display: flex;
+  display: flex;
 }
 
 .intro p {
-    line-height: 1.7;
-    color: var(--tertiary-color);
-    width: 100%;
-    font-size: 20px;
-    margin: 0 auto;
-    text-align: left;
-    padding-left: 10%;
+  line-height: 1.7;
+  color: var(--tertiary-color);
+  width: 100%;
+  font-size: 20px;
+  margin: 0 auto;
+  text-align: left;
+  padding-left: 10%;
 }
 
 .section-title {
-    font-size: 48px;
-    color: var(--secondary-color);
-    padding-right: 10px;
-    text-align: right;
-    margin: 0 auto 0 auto;
-    width: 25%;
+  font-size: 48px;
+  color: var(--secondary-color);
+
+  text-align: right;
+}
+
+.work {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 4%;
+  padding-right: 10px;
 }
 
 .projects {
-    width: 100%;
-    margin: 0 auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-left: 15%;
+}
+
+.project-one{
+    padding-left: 15%;
 }
 
 .project-1 {
-    margin: 0 20px 0 20px;
-    background: var(--secondary-color);
-    color: var(--primary-color);
+  margin: 20px;
+  background: var(--secondary-color);
+  color: var(--primary-color);
+  width: auto;
+}
+
+.project-1:hover {
+  opacity: 0.5;
 }
 
 .project-1 img {
-    width: 100%;
+  width: 100%;
 }
 
 .project {
-    margin: 20px;
-    background: var(--secondary-color);
-    color: var(--primary-color);
-    flex: 1;
+  margin: 10px;
+  background: var(--secondary-color);
+  color: var(--primary-color);
+  width: 425px;
+  align-content: space-between;
+}
+
+.project:hover {
+  opacity: 0.5;
 }
 
 .project img {
-    width: 100%;
+  width: 100%;
 }
 
 .project-info {
-    padding: 25px;
-    line-height: 1.3;
+  padding: 25px;
+  line-height: 1.3;
 }
 
 .project-info h3 {
-    font-size: 28px;
+  font-size: 28px;
 }
 
 .project-info h4 {
-    font-weight: lighter;
-    font-size: 22px;
-    margin-bottom: 15px;
+  font-weight: lighter;
+  font-size: 18px;
+  margin-bottom: 15px;
 }
 
 .text-left {
-    text-align: left;
+  text-align: left;
 }
 
 .text-right {
-    text-align: right;
+  text-align: right;
 }
 
 .flex-row {
-    display: flex;
+  display: flex;
 }
 
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
 @media screen and (max-width: 980px) {
-    header {
-        padding-bottom: 0;
-        justify-content: center;
-        position: relative;
-    }
-    header h1 {
-        width: 100%;
-        text-align: center;
-    }
-    header nav ul {
-        margin-top: 20px;
-        width: 100%;
-        justify-content: center;
-    }
-    header nav ul li a {
-        font-size: 20px;
-    }
-    footer h2, footer div {
-        text-align: left;
-        width: 100%;
-    }
-    .section-title {
-        width: 80%;
-    }
-    .project {
-        flex: 0 70%;
-    }
-    .project-1 {
-        flex: 0 70%;
-    }
+  header {
+    padding-bottom: 0;
+    justify-content: center;
+    position: relative;
+  }
+  header h1 {
+    width: 100%;
+    text-align: center;
+  }
+  header nav ul {
+    margin-top: 20px;
+    width: 100%;
+    justify-content: center;
+  }
+  header nav ul li a {
+    font-size: 20px;
+  }
+  footer h2,
+  footer div {
+    text-align: left;
+    width: 100%;
+  }
+  .section-title {
+    width: 80%;
+    text-align: left;
+  }
+  .work {
+    flex: 0 70%;
+  }
+  .project-one {
+      padding-left: 15%;
+  }
+}
 
+@media screen and (max-width: 768px) {
+  section {
+    padding: 30px 15px;
   }
 
-  @media screen and (max-width: 768px) {
-      section {
-          padding: 30px 15px;
-      }
-  }
+}
 
-  @media screen and (max-width: 575px) {
-    header nav ul li a {
-        font-size: 15px;
-    }
-      .section-title {
-          width: 95%;
-          font-size: 36px;
-      }
-      .intro p {
-          width: 100%;
-          font-size: 15px;
-      }
-      .project {
-          flex: 0 100%;
-      }
-      .project-1 {
-        flex: 0 100%;
-    }
+@media screen and (max-width: 575px) {
+  header nav ul li a {
+    font-size: 15px;
   }
+  .section-title {
+    width: 95%;
+    font-size: 36px;
+  }
+  .intro p {
+    width: 100%;
+    font-size: 15px;
+  }
+  .work {
+      padding-right: 20px;
+    flex: 0 100%;
+  }
+  .projects {
+      padding-right: 10%;
+  }
+}
