@@ -173,9 +173,9 @@ section {
   padding-left: 15%;
 }
 
-.project-one{
-    padding-left: 15%;
-    margin-top: -.8in;
+.project-one {
+  padding-left: 15%;
+  margin-top: -0.8in;
 }
 
 .project-1 {
@@ -189,7 +189,7 @@ section {
 }
 
 .project-1 img:hover {
-  opacity: 1.0;
+  opacity: 1;
 }
 
 .project-1 img {
@@ -209,7 +209,7 @@ section {
 }
 
 .project img:hover {
-  opacity: 1.0;
+  opacity: 1;
 }
 
 .project img {
@@ -276,7 +276,7 @@ section {
     flex: 0 70%;
   }
   .project-one {
-      padding-left: 15%;
+    padding-left: 15%;
   }
 }
 
@@ -284,7 +284,6 @@ section {
   section {
     padding: 30px 15px;
   }
-
 }
 
 @media screen and (max-width: 575px) {
@@ -300,14 +299,14 @@ section {
     font-size: 15px;
   }
   .work {
-      padding-right: 20px;
+    padding-right: 20px;
     flex: 0 100%;
   }
 
   .projects {
-      padding-right: 10%;
+    padding-right: 10%;
   }
-  .project-one{
+  .project-one {
     margin-top: auto;
-}
+  }
 }
