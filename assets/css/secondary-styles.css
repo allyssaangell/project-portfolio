@@ -1,0 +1,16 @@
+.row {
+    display: flex;
+    margin-left: 5%;
+  }
+  
+  .column {
+    flex: 50%;
+  }
+
+  .header-two h2 {
+      color: #9bd6dd;
+      border-bottom-color: #2d3738;
+      border-bottom-width: 5 px;
+      border-bottom-style: solid;
+      margin: 0 0 5px 0;
+  }
